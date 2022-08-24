@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import WIKI from '../../assets/WIKI.png'
+import ECCOM from '../../assets/eccom.png'
+import HOPE from '../../assets/Hope.png'
 
 // dataset of projects
 
@@ -14,17 +16,17 @@ const data =[
   },
   {
     id:2,
-    image:WIKI,
-    title:'Wiki Redesign Project',
-    github:"https://github.com/juanhdzx/Redesign_G6",
-    demo:"https://main.d2wzkwm3nb10ll.amplifyapp.com/"
+    image:ECCOM,
+    title:'Eccom Project',
+    github:"https://github.com/EthanDoan3655/hostedeccom",
+    demo:"https://react-mini.d3inlncbu3zmup.amplifyapp.com/"
   },
   {
     id:3,
-    image:WIKI,
-    title:'Wiki Redesign Project',
-    github:"https://github.com/juanhdzx/Redesign_G6",
-    demo:"https://main.d2wzkwm3nb10ll.amplifyapp.com/"
+    image:HOPE,
+    title:'Hope Hacks',
+    github:"https://github.com/EthanDoan3655/hopehacks",
+    demo:"https://hopehacks-group9.herokuapp.com/"
   },
   {
     id:4,
