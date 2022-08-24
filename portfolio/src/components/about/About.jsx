@@ -4,6 +4,7 @@ import ME from '../../assets/me.JPG'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {AiOutlineCar} from 'react-icons/ai'
 
 
 const About = () => {
@@ -28,9 +29,15 @@ const About = () => {
           <small>6 month Full-Stack Coding Apprenticeship</small>
         </article>
         <article className='about__card'>
-          <FiUsers className='about_icon'/>
-          <h5>Experience</h5>
-          <small>other experience</small>
+          <AiOutlineCar className='about_icon'/>
+          <h5>Hobbies</h5>
+          <small>
+            <ul>
+              <li>Alter/Create Clothes</li>
+              <li>Automotives</li>
+              <li></li>
+            </ul>
+          </small>
         </article>
         <article className='about__card'>
           <VscFolderLibrary className='about_icon'/>
@@ -40,8 +47,7 @@ const About = () => {
         </div>
 
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea cupiditate ab, fugit eos quis eligendi sapiente vitae nemo consequatur dolor numquam esse corporis aliquam dignissimos qui. Saepe sed asperiores at.
-        </p>
+        I am an aspiring Software Developer who is passionate about innovating in the Tech and Computer Science space. I was born and raised in Charlotte, North Carolina. I have always been fascinated with figuring out how things work, which is probably why It seems like I pick up a new hobby every week. This obsession with trying to become of jack of all trades has led me into picking up some random skills. However, it would also lead me to find a love for software development, the field in which there is always something to gain proficiency in and outside of coding.        </p>
 
         <a href='#contact' className='btn btn-primary'> Lets Connect</a>
       </div>
